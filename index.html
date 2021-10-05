@@ -30,17 +30,19 @@
     <header>Quizzzle</header>
 
     <main>
-      <ul>
+      <ul class="card-container">
         <li class="question-card">
-          <span>Question</span>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            excepturi?
-          </p>
-          <input type="checkbox" id="q1" /><label for="q1">show answer</label>
+          <div class="question-container">
+            <h3>Question</h3>
+            <p class="question">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              excepturi?
+            </p>
+          </div>
+          <input type="checkbox" id="q1" /><label class='btn-answer'for="q1">show answer</label>
           <div class="answer-container">
-            <span>Answer</span>
-            <p>
+            <h3>Answer</h3>
+            <p class="answer">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
               expedita ipsum sit suscipit consequatur.
             </p>
@@ -51,9 +53,44 @@
             <li>sit</li>
             <li>dolor</li>
           </ul>
-          <input type="checkbox" id="q1b" />
-          <label for="q1b"><i class="far fa-bookmark"></i></label>
-          <label for="q1b"><i class="fas fa-bookmark"></i></label>
+          <div class="bookmark">   
+            <input type="checkbox" id="q1b" />
+            <label for="q1b">
+              <i class="far fa-bookmark"></i>
+              <i class="fas fa-bookmark"></i>
+            </label>
+          </div>
+        </li>
+
+        <li class="question-card">
+          <div class="question-container">
+            <h3>Question</h3>
+            <p class="question">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              excepturi?
+            </p>
+          </div>
+          <input type="checkbox" id="q2" /><label class='btn-answer'for="q2">show answer</label>
+          <div class="answer-container">
+            <h3>Answer</h3>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
+              expedita ipsum sit suscipit consequatur.
+            </p>
+          </div>
+          <ul class="tag-container">
+            <li>lorem</li>
+            <li>ipsum</li>
+            <li>sit</li>
+            <li>dolor</li>
+          </ul>
+          <div class="bookmark">   
+            <input type="checkbox" id="q2b" />
+            <label for="q2b">
+              <i class="far fa-bookmark"></i>
+              <i class="fas fa-bookmark"></i>
+            </label>
+          </div>
         </li>
       </ul>
     </main>
