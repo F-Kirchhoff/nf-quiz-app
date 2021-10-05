@@ -78,10 +78,10 @@ h1 {
   box-shadow: rgba(0, 0, 12, 0.24) 0 -3px 8px;
 }
 
-.menu dd {
+.menu a {
   flex-grow: 1;
 }
-.menu dd a {
+.menu a {
   border-left: 1px solid rgb(206, 206, 206);
   display: block;
   text-align: center;
@@ -91,7 +91,7 @@ h1 {
   color: rgb(10, 88, 233);
 }
 
-.menu dd.active a {
+.menu a.active {
   background-color: rgb(10, 88, 233);
   color: rgb(232, 237, 240);
 }
