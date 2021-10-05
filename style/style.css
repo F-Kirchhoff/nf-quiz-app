@@ -82,7 +82,7 @@ h1 {
   flex-grow: 1;
 }
 .menu dd a {
-  border-left: 1px solid rgb(156, 174, 204);
+  border-left: 1px solid rgb(206, 206, 206);
   display: block;
   text-align: center;
   font-size: 1.5rem;
