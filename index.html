@@ -16,32 +16,42 @@
   <body>
     <nav>
       <dl class="menu">
-        <dt>home</dt>
-        <dd class="active"><a href="#"></a><i class="fas fa-home"></i></a></dd>
-        <dt>bookmarks</dt>
-        <dd><a href="#"></a><i class="fas fa-bookmark"></i></a></dd>
-        <dt>create</dt>
-        <dd><a href="#"></a><i class="fas fa-plus"></i></a></dd>
-        <dt>profile</dt>
-        <dd><a href="#"></a><i class="fas fa-user-circle"></i></a></dd>
+        <dt class="sr-only">home</dt>
+        <dd class="active">
+          <a href="#"><i class="fas fa-home"></i></a>
+        </dd>
+        <dt class="sr-only">bookmarks</dt>
+        <dd>
+          <a href="#"><i class="fas fa-bookmark"></i></a>
+        </dd>
+        <dt class="sr-only">create</dt>
+        <dd>
+          <a href="#"><i class="fas fa-plus"></i></a>
+        </dd>
+        <dt class="sr-only">profile</dt>
+        <dd>
+          <a href="#"><i class="fas fa-user-circle"></i></a>
+        </dd>
       </dl>
     </nav>
 
-    <header>Quizzzle</header>
+    <h1>Quizzzle</h1>
 
     <main>
-      <ul class="card-container">
+      <ul class="card-container" role="list">
         <li class="question-card">
           <div class="question-container">
-            <h3>Question</h3>
+            <h2>Question</h2>
             <p class="question">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
               excepturi?
             </p>
           </div>
-          <input type="checkbox" id="q1" /><label class='btn-answer'for="q1">show answer</label>
+          <input type="checkbox" id="q1" /><label class="btn-answer" for="q1"
+            >show answer</label
+          >
           <div class="answer-container">
-            <h3>Answer</h3>
+            <h2>Answer</h2>
             <p class="answer">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
               expedita ipsum sit suscipit consequatur.
@@ -53,7 +63,7 @@
             <li>sit</li>
             <li>dolor</li>
           </ul>
-          <div class="bookmark">   
+          <div class="bookmark">
             <input type="checkbox" id="q1b" />
             <label for="q1b">
               <i class="far fa-bookmark"></i>
@@ -64,15 +74,17 @@
 
         <li class="question-card">
           <div class="question-container">
-            <h3>Question</h3>
+            <h2>Question</h2>
             <p class="question">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
               excepturi?
             </p>
           </div>
-          <input type="checkbox" id="q2" /><label class='btn-answer'for="q2">show answer</label>
+          <input type="checkbox" id="q2" /><label class="btn-answer" for="q2"
+            >show answer</label
+          >
           <div class="answer-container">
-            <h3>Answer</h3>
+            <h2>Answer</h2>
             <p class="answer">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
               expedita ipsum sit suscipit consequatur.
@@ -84,7 +96,7 @@
             <li>sit</li>
             <li>dolor</li>
           </ul>
-          <div class="bookmark">   
+          <div class="bookmark">
             <input type="checkbox" id="q2b" />
             <label for="q2b">
               <i class="far fa-bookmark"></i>
