@@ -37,10 +37,6 @@ dt {
   all: unset;
 }
 
-a {
-  color: unset;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -155,8 +151,16 @@ h1 {
   display: none;
 }
 
-.question-card input[type="checkbox"]:checked ~ .answer-container {
+.btn-answer .hide {
+  display: none;
+}
+
+.question-card input[type="checkbox"]:checked ~ .answer-container,
+.question-card input[type="checkbox"]:checked ~ .btn-answer > .hide {
   display: block;
+}
+.question-card input[type="checkbox"]:checked ~ .btn-answer > .show {
+  display: none;
 }
 
 .answer-container h2 {
