@@ -47,25 +47,29 @@ ul {
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-rows: 60px auto 60px;
+  height: 100vh;
 }
 
-nav {
-  position: fixed;
-  z-index: 10;
-  bottom: 0;
-  column-gap: 10px;
-  width: 100%;
-}
-
-h1 {
-  display: block;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
-  text-align: center;
   color: rgb(10, 88, 233);
   background-color: rgb(232, 237, 240);
-  padding: 14px 0;
   font-weight: bold;
-  box-shadow: rgba(0, 0, 12, 0.24) 0 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+}
+
+main {
+  overflow-y: auto;
+}
+
+.zz-top {
+  z-index: 100;
 }
 
 .menu {
@@ -98,7 +102,6 @@ h1 {
 
 .card-container {
   display: grid;
-  grid-row: 1fr;
   row-gap: 15px;
   padding: 15px;
 }
