@@ -199,9 +199,9 @@ main {
 
 .bookmark {
   position: absolute;
-  top: -10px;
-  right: -5px;
-  font-size: 30px;
+  top: -5px;
+  right: 8px;
+  font-size: 35px;
   color: rgb(250, 137, 7);
 }
 
@@ -225,6 +225,7 @@ main {
 }
 
 /* Create page CSS  */
+
 .submit-form {
   margin: 0;
   padding: 15px;
