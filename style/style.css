@@ -219,3 +219,7 @@ main {
 .bookmark input[type="checkbox"]:checked ~ label .fas {
   display: block;
 }
+
+.bookmark .page-bookmarks-bm {
+  display: block;
+}
