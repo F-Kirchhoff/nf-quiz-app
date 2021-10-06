@@ -55,6 +55,7 @@ body {
   display: grid;
   grid-template-rows: 60px auto 60px;
   height: 100vh;
+  background-color: #bbc;
 }
 
 header {
@@ -92,10 +93,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-left: 1px solid rgb(206, 206, 206);
+
   font-size: 1.5rem;
   background-color: rgb(232, 237, 240);
   color: rgb(10, 88, 233);
+}
+
+.menu:not(menu:first-child) a {
+  border-left: 1px solid rgb(206, 206, 206);
 }
 
 .menu a.active {
