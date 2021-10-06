@@ -5,7 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <title>Quizzzle</title>
   </head>
-  <body></body>
+  <body>
+    <header class="zz-top">
+      <h1>Quizzzle</h1>
+    </header>
+
+    <main>
+      <ul class="card-container" role="list">
+        <li class="question-card">
+          <div class="question-container">
+            <h2>Question</h2>
+            <p class="question">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              excepturi?
+            </p>
+          </div>
+          <input type="checkbox" id="q1" /><label class="btn-answer" for="q1">
+            <span class="show">show answer</span>
+            <span class="hide">hide answer</span></label
+          >
+          <div class="answer-container">
+            <h2>Answer</h2>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
+              expedita ipsum sit suscipit consequatur.
+            </p>
+          </div>
+          <ul class="tag-container">
+            <li>lorem</li>
+            <li>ipsum</li>
+            <li>sit</li>
+            <li>dolor</li>
+          </ul>
+          <div class="bookmark">
+            <input type="checkbox" id="q1b" />
+            <label for="q1b">
+              <i class="far fa-bookmark"></i>
+              <i class="fas fa-bookmark"></i>
+            </label>
+          </div>
+        </li>
+
+        <li class="question-card">
+          <div class="question-container">
+            <h2>Question</h2>
+            <p class="question">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              excepturi?
+            </p>
+          </div>
+          <input type="checkbox" id="q2" /><label class="btn-answer" for="q2">
+            <span class="show">show answer</span>
+            <span class="hide">hide answer</span>
+          </label>
+          <div class="answer-container">
+            <h2>Answer</h2>
+            <p class="answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
+              expedita ipsum sit suscipit consequatur.
+            </p>
+          </div>
+          <ul class="tag-container">
+            <li>lorem</li>
+            <li>ipsum</li>
+            <li>sit</li>
+            <li>dolor</li>
+          </ul>
+          <div class="bookmark">
+            <input type="checkbox" id="q2b" />
+            <label for="q2b">
+              <i class="far fa-bookmark"></i>
+              <i class="fas fa-bookmark"></i>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="zz-top">
+      <dl class="menu">
+        <a class="active" href="#">
+          <dt class="sr-only">home</dt>
+          <dd class="">
+            <i class="fas fa-home"></i>
+          </dd>
+        </a>
+        <a href="#">
+          <dt class="sr-only">bookmarks</dt>
+          <dd>
+            <i class="fas fa-bookmark"></i>
+          </dd>
+        </a>
+        <a href="#">
+          <dt class="sr-only">create</dt>
+          <dd>
+            <i class="fas fa-plus"></i>
+          </dd>
+        </a>
+        <a href="#">
+          <dt class="sr-only">profile</dt>
+          <dd>
+            <i class="fas fa-user-circle"></i>
+          </dd>
+        </a>
+      </dl>
+    </nav>
+  </body>
 </html>
