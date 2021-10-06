@@ -18,7 +18,33 @@
       <h1>Quizzzle</h1>
     </header>
 
-    <main></main>
+    <main>
+      <span class="sr-only" id = 'form-label'></span>
+      <form aria-labelledby="form-label" action="" class="submit-form">
+        <label class="text-lg blue-text" for="question-field">Question</label>
+        <textarea
+          class="question-field"
+          name="question"
+          id="question-field"
+          placeholder="Write your question here..."
+        ></textarea>
+        <label class="text-lg orange-text" for="answer-field">Answer</label>
+        <textarea
+          class="answer-field"
+          name="answer"
+          id="answer-field"
+          placeholder="Write your answer here..."
+        ></textarea>
+        <label class="text-lg gray-text" for="tags-field">Tags</label>
+        <input type="text"
+          class="tags-field"
+          name="tags"
+          id="tags-field"
+          placeholder="tags..."
+        ></input>
+        <button>Submit Question</button>
+      </form>
+    </main>
 
     <nav class="zz-top">
       <dl class="menu">
