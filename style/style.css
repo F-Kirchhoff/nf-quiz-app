@@ -74,6 +74,7 @@ main {
 
 .menu {
   display: flex;
+  height: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
@@ -82,13 +83,11 @@ main {
 
 .menu a {
   flex-grow: 1;
-}
-.menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-left: 1px solid rgb(206, 206, 206);
-  display: block;
-  text-align: center;
   font-size: 1.5rem;
-  padding: 15px 0;
   background-color: rgb(232, 237, 240);
   color: rgb(10, 88, 233);
 }
@@ -128,6 +127,7 @@ main {
 .question-card .question {
   padding: 15px;
   margin: 0;
+  display: block;
   background-color: rgb(10, 88, 233);
   color: rgb(232, 237, 240);
   border-radius: 5px;
