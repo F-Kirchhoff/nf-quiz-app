@@ -33,6 +33,7 @@ h3,
 dl,
 dd,
 a,
+p,
 dt {
   all: unset;
 }
@@ -294,4 +295,63 @@ main {
 .text-lg {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-list__item {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 8px;
+  border: solid 3px;
+  border-radius: 999px;
+  color: #445;
+}
+/* Profile page Styling */
+
+.profile-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.profile-card__img {
+  width: 100%;
+  border-radius: 999px;
+}
+
+.profile-card__name {
+  justify-self: left;
+  align-self: center;
+}
+
+.profile-card__description,
+.profile-card__skill-header,
+.tag-list,
+.profile-card__logout-btn {
+  grid-column: 1/ -1;
+}
+
+.profile-card__description {
+  font-size: 1.1rem;
+}
+
+.profile-card__skill-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #445;
+}
+
+.profile-card__logout-btn {
+  display: block;
+  justify-self: center;
+  font-weight: bold;
+  padding: 10px 18px;
+  color: rgb(250, 137, 7);
+  border-radius: 10px;
+  border: solid 3px;
 }
