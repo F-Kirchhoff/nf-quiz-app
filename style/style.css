@@ -44,7 +44,8 @@ ul {
   list-style: none;
 }
 
-textarea:focus {
+textarea:focus,
+input:focus {
   outline: none;
 }
 
@@ -235,12 +236,13 @@ main {
   display: grid;
   gap: 15px;
   height: 100%;
-  grid-template-rows: 20px 1fr 20px 1fr 50px;
+  grid-template-rows: 20px 1fr 20px 1fr 20px 50px 50px;
   box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
     rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
 }
 
-.submit-form textarea {
+.submit-form textarea,
+.submit-form input {
   background-color: transparent;
   color: #445;
   border: solid #445 3px;
@@ -256,6 +258,10 @@ main {
 }
 .answer-field:focus {
   border-color: rgb(250, 137, 7);
+  border-width: 5px;
+}
+.tags-field:focus {
+  border-color: #999;
   border-width: 5px;
 }
 .submit-form button {
@@ -276,6 +282,9 @@ main {
 }
 .orange-text {
   color: rgb(250, 137, 7);
+}
+.gray-text {
+  color: #999;
 }
 .text-lg {
   font-size: 1.5rem;
