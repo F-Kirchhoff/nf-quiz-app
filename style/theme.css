@@ -1,1 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --c-primary: rgb(10, 88, 233);
+  --c-secondary: rgb(250, 137, 7);
+  --c-light: rgb(232, 237, 240);
+  --c-dark: #666;
+}
