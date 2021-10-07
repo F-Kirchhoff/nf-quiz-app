@@ -6,9 +6,9 @@
 .q-card__q-text {
   padding: 15px;
   margin: 0;
-  background-color: var(--c-primary);
-  color: var(--c-light);
+  color: var(--c-dark);
   border-radius: 5px;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -17,6 +17,7 @@
   color: var(--c-light);
   padding: 15px;
   margin: 0;
+  text-align: center;
   border-radius: 5px;
   font-weight: bold;
 }
