@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/index.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -14,59 +14,59 @@
     <title>Quizzzle</title>
   </head>
   <body>
-    <header class="zz-top">
+    <header class="zz-top title">
       <h1>Create</h1>
     </header>
 
-    <main class="centered-main">
+    <main class="centered">
       <span class="sr-only" id = 'form-label'>Create a new Question</span>
       <form aria-labelledby="form-label" action="" class="submit-form">
-        <label class="text-lg blue-text" for="question-field">Question</label>
+        <label class="text-lg text-primary" for="question-field">Question</label>
         <textarea
-          class="question-field"
+          class="submit-form__input submit-form__input--question"
           name="question"
           id="question-field"
           placeholder="Write your question here..."
         ></textarea>
-        <label class="text-lg orange-text" for="answer-field">Answer</label>
+        <label class="text-lg text-secondary" for="answer-field">Answer</label>
         <textarea
-          class="answer-field"
+          class="submit-form__input submit-form__input--answer"
           name="answer"
           id="answer-field"
           placeholder="Write your answer here..."
         ></textarea>
-        <label class="text-lg gray-text" for="tags-field">Tags</label>
+        <label class="text-lg text-dark" for="tags-field">Tags</label>
         <input type="text"
-          class="tags-field"
+          class="submit-form__input submit-form__input--tags"
           name="tags"
           id="tags-field"
           placeholder="tags..."
         ></input>
-        <button>Submit Question</button>
+        <button class="submit-form__btn">Submit Question</button>
       </form>
     </main>
 
     <nav class="zz-top">
       <dl class="menu">
-        <a href="index.html">
+        <a class="menu__item" href="index.html">
           <dt class="sr-only">home</dt>
           <dd class="">
             <i class="fas fa-home"></i>
           </dd>
         </a>
-        <a href="bookmarks.html">
+        <a class="menu__item" href="bookmarks.html">
           <dt class="sr-only">bookmarks</dt>
           <dd>
             <i class="fas fa-bookmark"></i>
           </dd>
         </a>
-        <a class="active" href="create.html">
+        <a class="menu__item menu__item--active" href="create.html">
           <dt class="sr-only">create</dt>
           <dd>
             <i class="fas fa-plus"></i>
           </dd>
         </a>
-        <a href="profile.html">
+        <a class="menu__item" href="profile.html">
           <dt class="sr-only">profile</dt>
           <dd>
             <i class="fas fa-user-circle"></i>
