@@ -111,6 +111,7 @@ main {
 
 .card-container {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 15px;
 }
 
@@ -359,7 +360,7 @@ main {
   border: solid 3px;
 }
 
-@media (min-width: 760px) {
+/* @media (min-width: 760px) {
   .card-container {
     grid-template-columns: 1fr 1fr;
   }
@@ -368,4 +369,4 @@ main {
   .card-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
+} */
