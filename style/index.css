@@ -5,9 +5,11 @@
 
 @import "components/title.css";
 @import "components/navbar.css";
-@import "components/q-card.css";
 @import "components/card.css";
+@import "components/q-card.css";
+@import "components/profile-card.css";
 @import "components/tag-list.css";
 @import "components/bookmark.css";
+@import "components/submit-form.css";
 
 @import "style.css";

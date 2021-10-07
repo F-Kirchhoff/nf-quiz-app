@@ -18,31 +18,31 @@
       <h1>Create</h1>
     </header>
 
-    <main class="centered-main">
+    <main class="centered">
       <span class="sr-only" id = 'form-label'>Create a new Question</span>
       <form aria-labelledby="form-label" action="" class="submit-form">
-        <label class="text-lg blue-text" for="question-field">Question</label>
+        <label class="text-lg text-primary" for="question-field">Question</label>
         <textarea
-          class="question-field"
+          class="submit-form__input submit-form__input--question"
           name="question"
           id="question-field"
           placeholder="Write your question here..."
         ></textarea>
-        <label class="text-lg orange-text" for="answer-field">Answer</label>
+        <label class="text-lg text-secondary" for="answer-field">Answer</label>
         <textarea
-          class="answer-field"
+          class="submit-form__input submit-form__input--answer"
           name="answer"
           id="answer-field"
           placeholder="Write your answer here..."
         ></textarea>
-        <label class="text-lg gray-text" for="tags-field">Tags</label>
+        <label class="text-lg text-dark" for="tags-field">Tags</label>
         <input type="text"
-          class="tags-field"
+          class="submit-form__input submit-form__input--tags"
           name="tags"
           id="tags-field"
           placeholder="tags..."
         ></input>
-        <button>Submit Question</button>
+        <button class="submit-form__btn">Submit Question</button>
       </form>
     </main>
 
