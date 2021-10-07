@@ -298,7 +298,6 @@ main {
   font-weight: bold;
 }
 
-
 .tag-list {
   display: flex;
   flex-wrap: wrap;
@@ -358,7 +357,8 @@ main {
   color: rgb(250, 7, 68);
   border-radius: 10px;
   border: solid 3px;
-=======
+}
+
 @media (min-width: 760px) {
   .card-container {
     grid-template-columns: 1fr 1fr;
