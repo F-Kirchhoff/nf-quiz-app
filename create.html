@@ -5,7 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <title>Quizzzle</title>
   </head>
-  <body></body>
+  <body>
+    <header class="zz-top">
+      <h1>Create</h1>
+    </header>
+
+    <main>
+      <span class="sr-only" id = 'form-label'>Create a new Question</span>
+      <form aria-labelledby="form-label" action="" class="submit-form">
+        <label class="text-lg blue-text" for="question-field">Question</label>
+        <textarea
+          class="question-field"
+          name="question"
+          id="question-field"
+          placeholder="Write your question here..."
+        ></textarea>
+        <label class="text-lg orange-text" for="answer-field">Answer</label>
+        <textarea
+          class="answer-field"
+          name="answer"
+          id="answer-field"
+          placeholder="Write your answer here..."
+        ></textarea>
+        <label class="text-lg gray-text" for="tags-field">Tags</label>
+        <input type="text"
+          class="tags-field"
+          name="tags"
+          id="tags-field"
+          placeholder="tags..."
+        ></input>
+        <button>Submit Question</button>
+      </form>
+    </main>
+
+    <nav class="zz-top">
+      <dl class="menu">
+        <a href="index.html">
+          <dt class="sr-only">home</dt>
+          <dd class="">
+            <i class="fas fa-home"></i>
+          </dd>
+        </a>
+        <a href="bookmarks.html">
+          <dt class="sr-only">bookmarks</dt>
+          <dd>
+            <i class="fas fa-bookmark"></i>
+          </dd>
+        </a>
+        <a class="active" href="create.html">
+          <dt class="sr-only">create</dt>
+          <dd>
+            <i class="fas fa-plus"></i>
+          </dd>
+        </a>
+        <a href="profile.html">
+          <dt class="sr-only">profile</dt>
+          <dd>
+            <i class="fas fa-user-circle"></i>
+          </dd>
+        </a>
+      </dl>
+    </nav>
+  </body>
 </html>
