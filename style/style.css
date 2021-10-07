@@ -111,7 +111,6 @@ main {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: start;
   gap: 15px;
 }
@@ -370,4 +369,25 @@ main {
   color: rgb(250, 7, 68);
   border-radius: 10px;
   border: solid 3px;
+}
+
+@media (min-width: 650px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1080px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1440px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1920px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 }
