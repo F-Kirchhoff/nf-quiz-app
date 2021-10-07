@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/index.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -14,76 +14,214 @@
     <title>Quizzzle</title>
   </head>
   <body>
-    <header class="zz-top">
+    <header class="zz-top title">
       <h1>Quizzzle</h1>
     </header>
 
     <main>
       <ul class="card-container" role="list">
-        <li class="card">
-          <div class="question-container">
-            <h2>Question</h2>
-            <p class="question">
+        <li class="card q-card">
+          <div class="q-card__q-container">
+            <h2 class="q-card__title text-primary">Question</h2>
+            <p class="q-card__q-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
               excepturi?
             </p>
           </div>
-          <input type="checkbox" id="q1" /><label class="btn-answer" for="q1">
-            <span class="show">show answer</span>
-            <span class="hide">hide answer</span></label
-          >
-          <div class="answer-container">
-            <h2>Answer</h2>
-            <p class="answer">
+
+          <input class="hidden q-card__btn-ceckbox" type="checkbox" id="q1" />
+          <label class="q-card__btn" for="q1">
+            <span class="q-card__btn-text q-card__btn-text--show">
+              show answer
+            </span>
+            <span class="q-card__btn-text q-card__btn-text--hide">
+              hide answer
+            </span>
+          </label>
+          <div class="q-card__answer-container">
+            <h2 class="q-card__title text-secondary">Answer</h2>
+            <p class="q-card__a-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
               expedita ipsum sit suscipit consequatur.
             </p>
           </div>
-          <ul class="tag-container">
-            <li>lorem</li>
-            <li>ipsum</li>
-            <li>sit</li>
-            <li>dolor</li>
+
+          <ul class="tag-list">
+            <li class="tag-list__item">lorem</li>
+            <li class="tag-list__item">ipsum</li>
+            <li class="tag-list__item">sit</li>
+            <li class="tag-list__item">dolor</li>
           </ul>
+
           <div class="bookmark">
-            <input type="checkbox" id="q1b" />
-            <label for="q1b">
-              <i class="far fa-bookmark"></i>
-              <i class="fas fa-bookmark"></i>
+            <input class="hidden" type="checkbox" id="q1b" />
+            <label class="bookmark__btn" for="q1b">
+              <i class="bookmark__btn--empty far fa-bookmark"></i>
+              <i class="bookmark__btn--filled fas fa-bookmark"></i>
             </label>
           </div>
         </li>
-
-        <li class="card">
-          <div class="question-container">
-            <h2>Question</h2>
-            <p class="question">
+        <li class="card q-card">
+          <div class="q-card__q-container">
+            <h2 class="q-card__title text-primary">Question</h2>
+            <p class="q-card__q-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
               excepturi?
             </p>
           </div>
-          <input type="checkbox" id="q2" /><label class="btn-answer" for="q2">
-            <span class="show">show answer</span>
-            <span class="hide">hide answer</span>
+
+          <input class="hidden q-card__btn-ceckbox" type="checkbox" id="q2" />
+          <label class="q-card__btn" for="q2">
+            <span class="q-card__btn-text q-card__btn-text--show">
+              show answer
+            </span>
+            <span class="q-card__btn-text q-card__btn-text--hide">
+              hide answer
+            </span>
           </label>
-          <div class="answer-container">
-            <h2>Answer</h2>
-            <p class="answer">
+          <div class="q-card__answer-container">
+            <h2 class="q-card__title text-secondary">Answer</h2>
+            <p class="q-card__a-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
               expedita ipsum sit suscipit consequatur.
             </p>
           </div>
-          <ul class="tag-container">
-            <li>lorem</li>
-            <li>ipsum</li>
-            <li>sit</li>
-            <li>dolor</li>
+
+          <ul class="tag-list">
+            <li class="tag-list__item">lorem</li>
+            <li class="tag-list__item">ipsum</li>
+            <li class="tag-list__item">sit</li>
+            <li class="tag-list__item">dolor</li>
           </ul>
+
           <div class="bookmark">
-            <input type="checkbox" id="q2b" />
-            <label for="q2b">
-              <i class="far fa-bookmark"></i>
-              <i class="fas fa-bookmark"></i>
+            <input class="hidden" type="checkbox" id="q2b" />
+            <label class="bookmark__btn" for="q2b">
+              <i class="bookmark__btn--empty far fa-bookmark"></i>
+              <i class="bookmark__btn--filled fas fa-bookmark"></i>
+            </label>
+          </div>
+        </li>
+        <li class="card q-card">
+          <div class="q-card__q-container">
+            <h2 class="q-card__title text-primary">Question</h2>
+            <p class="q-card__q-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              excepturi?
+            </p>
+          </div>
+
+          <input class="hidden q-card__btn-ceckbox" type="checkbox" id="q3" />
+          <label class="q-card__btn" for="q3">
+            <span class="q-card__btn-text q-card__btn-text--show">
+              show answer
+            </span>
+            <span class="q-card__btn-text q-card__btn-text--hide">
+              hide answer
+            </span>
+          </label>
+          <div class="q-card__answer-container">
+            <h2 class="q-card__title text-secondary">Answer</h2>
+            <p class="q-card__a-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
+              expedita ipsum sit suscipit consequatur.
+            </p>
+          </div>
+
+          <ul class="tag-list">
+            <li class="tag-list__item">lorem</li>
+            <li class="tag-list__item">ipsum</li>
+            <li class="tag-list__item">sit</li>
+            <li class="tag-list__item">dolor</li>
+          </ul>
+
+          <div class="bookmark">
+            <input class="hidden" type="checkbox" id="q3b" />
+            <label class="bookmark__btn" for="q3b">
+              <i class="bookmark__btn--empty far fa-bookmark"></i>
+              <i class="bookmark__btn--filled fas fa-bookmark"></i>
+            </label>
+          </div>
+        </li>
+        <li class="card q-card">
+          <div class="q-card__q-container">
+            <h2 class="q-card__title text-primary">Question</h2>
+            <p class="q-card__q-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              excepturi?
+            </p>
+          </div>
+
+          <input class="hidden q-card__btn-ceckbox" type="checkbox" id="q4" />
+          <label class="q-card__btn" for="q4">
+            <span class="q-card__btn-text q-card__btn-text--show">
+              show answer
+            </span>
+            <span class="q-card__btn-text q-card__btn-text--hide">
+              hide answer
+            </span>
+          </label>
+          <div class="q-card__answer-container">
+            <h2 class="q-card__title text-secondary">Answer</h2>
+            <p class="q-card__a-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
+              expedita ipsum sit suscipit consequatur.
+            </p>
+          </div>
+
+          <ul class="tag-list">
+            <li class="tag-list__item">lorem</li>
+            <li class="tag-list__item">ipsum</li>
+            <li class="tag-list__item">sit</li>
+            <li class="tag-list__item">dolor</li>
+          </ul>
+
+          <div class="bookmark">
+            <input class="hidden" type="checkbox" id="q4b" />
+            <label class="bookmark__btn" for="q4b">
+              <i class="bookmark__btn--empty far fa-bookmark"></i>
+              <i class="bookmark__btn--filled fas fa-bookmark"></i>
+            </label>
+          </div>
+        </li>
+        <li class="card q-card">
+          <div class="q-card__q-container">
+            <h2 class="q-card__title text-primary">Question</h2>
+            <p class="q-card__q-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+              excepturi?
+            </p>
+          </div>
+
+          <input class="hidden q-card__btn-ceckbox" type="checkbox" id="q5" />
+          <label class="q-card__btn" for="q5">
+            <span class="q-card__btn-text q-card__btn-text--show">
+              show answer
+            </span>
+            <span class="q-card__btn-text q-card__btn-text--hide">
+              hide answer
+            </span>
+          </label>
+          <div class="q-card__answer-container">
+            <h2 class="q-card__title text-secondary">Answer</h2>
+            <p class="q-card__a-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae illo
+              expedita ipsum sit suscipit consequatur.
+            </p>
+          </div>
+
+          <ul class="tag-list">
+            <li class="tag-list__item">lorem</li>
+            <li class="tag-list__item">ipsum</li>
+            <li class="tag-list__item">sit</li>
+            <li class="tag-list__item">dolor</li>
+          </ul>
+
+          <div class="bookmark">
+            <input class="hidden" type="checkbox" id="q5b" />
+            <label class="bookmark__btn" for="q5b">
+              <i class="bookmark__btn--empty far fa-bookmark"></i>
+              <i class="bookmark__btn--filled fas fa-bookmark"></i>
             </label>
           </div>
         </li>
@@ -92,25 +230,25 @@
 
     <nav class="zz-top">
       <dl class="menu">
-        <a class="active" href="index.html">
+        <a class="menu__item menu__item--active" href="index.html">
           <dt class="sr-only">home</dt>
           <dd class="">
             <i class="fas fa-home"></i>
           </dd>
         </a>
-        <a href="bookmarks.html">
+        <a class="menu__item" href="bookmarks.html">
           <dt class="sr-only">bookmarks</dt>
           <dd>
             <i class="fas fa-bookmark"></i>
           </dd>
         </a>
-        <a href="create.html">
+        <a class="menu__item" href="create.html">
           <dt class="sr-only">create</dt>
           <dd>
             <i class="fas fa-plus"></i>
           </dd>
         </a>
-        <a href="profile.html">
+        <a class="menu__item" href="profile.html">
           <dt class="sr-only">profile</dt>
           <dd>
             <i class="fas fa-user-circle"></i>
