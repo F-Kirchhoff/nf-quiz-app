@@ -3,7 +3,7 @@
   top: -5px;
   right: 8px;
   font-size: 35px;
-  color: rgb(250, 137, 7);
+  color: var(--c-secondary);
 }
 
 .bookmark__btn .bookmark__btn--filled {
