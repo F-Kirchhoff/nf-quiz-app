@@ -1,0 +1,55 @@
+.q-card__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.q-card__q-text {
+  padding: 15px;
+  margin: 0;
+  display: block;
+  background-color: var(--c-primary);
+  color: var(--c-light);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.q-card__btn {
+  background-color: var(--c-secondary);
+  color: var(--c-light);
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* BUTTON LOGIC START*/
+
+.q-card__btn-text--show {
+  display: block;
+}
+.q-card__btn-text--hide {
+  display: none;
+}
+.q-card__answer-container {
+  display: none;
+}
+
+.q-card
+  input[type="checkbox"].q-card__btn-ceckbox:checked
+  ~ .q-card__answer-container,
+.q-card
+  input[type="checkbox"].q-card__btn-ceckbox:checked
+  ~ .q-card__btn
+  > .q-card__btn-text--hide {
+  display: block;
+}
+.q-card
+  input[type="checkbox"].q-card__btn-ceckbox:checked
+  ~ .q-card__btn
+  > .q-card__btn-text--show {
+  display: none;
+}
+
+/* BUTTON LOGIC END */

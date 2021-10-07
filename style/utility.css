@@ -27,17 +27,23 @@
 .zz-top {
   z-index: 100;
 }
-
-.blue-text {
-  color: rgb(10, 88, 233);
+.text-primary {
+  color: var(--c-primary);
 }
-.orange-text {
-  color: rgb(250, 137, 7);
+.text-secondary {
+  color: var(--c-secondary);
 }
-.gray-text {
-  color: #999;
+.text-dark {
+  color: var(--c-dark);
+}
+.text-light {
+  color: var(--c-light);
 }
 .text-lg {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.hidden {
+  display: none;
 }
