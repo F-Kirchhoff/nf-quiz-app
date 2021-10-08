@@ -31,6 +31,11 @@
   padding: 12px 20px;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.q-card__btn:hover {
+  transform: scale(1.06);
 }
 
 /* BUTTON LOGIC START*/
