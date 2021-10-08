@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
 
 :root {
   --c-primary: rgb(25, 175, 75);
+  --c-primary-start: rgb(129, 201, 35);
+  --c-primary-end: rgb(17, 128, 128);
   --c-secondary: rgb(233, 124, 35);
+  --c-secondary-start: rgb(233, 154, 35);
+  --c-secondary-end: rgb(233, 75, 35);
   --c-light: rgb(232, 237, 240);
   --c-dark: #666;
   --c-background: #bbc;
